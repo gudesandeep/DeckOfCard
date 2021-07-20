@@ -25,5 +25,10 @@ namespace DeckofCards.Service
                    .ToList();
             return Cards;
         }
+
+        public string test()
+        {
+            return "hi";
+        }
     }
 }
